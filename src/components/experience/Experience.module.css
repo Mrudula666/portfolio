@@ -1,0 +1,135 @@
+.section {
+  padding: 0 4rem 2rem;
+}
+
+.header {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgba(148, 163, 184, 0.75);
+  padding: 0.5rem 1.4rem;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  background: rgba(15, 23, 42, 0.4);
+  backdrop-filter: blur(18px);
+}
+
+.title {
+  margin: 1.5rem 0 2.5rem;
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  font-weight: 700;
+  color: #f8fafc;
+  max-width: 720px;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.card {
+  background: rgba(15, 23, 42, 0.72);
+  border-radius: 28px;
+  border: 1px solid rgba(99, 102, 241, 0.22);
+  padding: 2.25rem 2.5rem;
+  box-shadow: 0 35px 95px rgba(15, 23, 42, 0.55);
+  display: grid;
+  gap: 1.75rem;
+}
+
+.cardHeader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.role {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #f8fafc;
+}
+
+.company {
+  margin: 0.25rem 0 0;
+  font-size: 1rem;
+  color: rgba(148, 163, 184, 0.85);
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  color: rgba(148, 163, 184, 0.9);
+  font-size: 0.95rem;
+}
+
+.metaItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.achievements {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.9rem;
+}
+
+.achievements li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: start;
+  gap: 0.75rem;
+  color: rgba(226, 232, 240, 0.92);
+  line-height: 1.65;
+}
+
+.achievements li svg {
+  color: #34d399;
+  margin-top: 0.2rem;
+}
+
+.stack {
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  color: rgba(148, 163, 184, 0.85);
+  text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+  .section {
+    padding: 0 2.5rem 2rem;
+  }
+
+  .card {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .section {
+    padding: 0 1.5rem 1.5rem;
+  }
+
+  .cardHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .meta {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .metaItem {
+    font-size: 0.9rem;
+  }
+}
