@@ -8,13 +8,6 @@ import classes from './Education.module.css';
 const timeline = [
   {
     icon: <MdWork />,
-    title: 'Front-End Engineer Intern · Paciolan',
-    period: 'Aug 2024 — Dec 2024',
-    description:
-      'Enhanced digital ticketing products with reusable React components, SPA routing, and automated testing in Agile sprints.',
-  },
-  {
-    icon: <MdWork />,
     title: 'Sr. Java Developer · Infosys',
     period: 'Apr 2022 — Jan 2023',
     description:

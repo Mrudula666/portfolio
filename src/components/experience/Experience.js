@@ -6,19 +6,6 @@ import classes from './Experience.module.css';
 
 const experiences = [
   {
-    company: 'Paciolan',
-    role: 'Front-End Engineer Intern',
-    period: 'Aug 2024 — Dec 2024',
-    location: 'Irvine, CA (Remote)',
-    achievements: [
-      'Delivered responsive ticketing and payments flows with React.js, Hooks, and reusable component patterns.',
-      'Integrated REST APIs using Axios and Fetch while optimising SPA routing with React Router.',
-      'Improved quality by automating Jest and React Testing Library suites across Agile sprints.',
-    ],
-    stack:
-      'React.js · JavaScript (ES6+) · Node.js · HTML5 · CSS3 · Bootstrap · Webpack · Babel · Jest · Agile/Scrum',
-  },
-  {
     company: 'Infosys',
     role: 'Sr. Java Developer',
     period: 'Apr 2022 — Jan 2023',

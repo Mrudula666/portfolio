@@ -12,9 +12,8 @@ const About = () => {
         <div className={classes.layout}>
           <div className={classes.summary}>
             <p>
-              I'm <strong>Mrudula Nimmala</strong>, a Hayward, CA-based engineer with 6 years of
-              experience delivering enterprise-grade platforms across telecom, e-commerce, and sports
-              technology domains. I specialise in modernising Java/Spring ecosystems, orchestrating
+              I'm <strong>Mrudula Nimmala</strong>, San Fransisco Bay Area-based engineer with 5+ years of
+              experience delivering enterprise-grade platforms across telecom, e-commerce domains. I specialise in modernising Java/Spring ecosystems, orchestrating
               microservices, and scaling products with automation-first practices.
             </p>
             <p>
@@ -31,7 +30,7 @@ const About = () => {
             <div className={classes.card}>
               <span className={classes.cardLabel}>Core strengths</span>
               <ul>
-                <li>Java, Kotlin, Spring Boot &amp; microservices architecture</li>
+                <li>Java, Spring Boot &amp; microservices and cloud-native architecture</li>
                 <li>Event-driven design with Kafka, JMS &amp; resilient APIs</li>
                 <li>Agile leadership, TDD, and secure coding practices</li>
               </ul>
