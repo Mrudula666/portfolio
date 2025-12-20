@@ -29,13 +29,13 @@ const Hero = () => {
             >
               View Projects
             </a>
-            <a className={classes.secondaryCta} href="mailto:nmrchandra3@gmail.com">
+            <a className={classes.secondaryCta} href="mailto:mrudulanimmala8@gmail.com">
               Let's collaborate
             </a>
           </div>
           <div className={classes.meta}>
             <span><FaLocationArrow /> Hayward, CA</span>
-            <span><FaEnvelope /> nmrchandra3@gmail.com</span>
+            <span><FaEnvelope /> mrudulanimmala8@gmail.com</span>
           </div>
         </div>
       </div>
