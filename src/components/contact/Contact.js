@@ -3,15 +3,15 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import classes from './Contact.module.css';
-import portrait from '../images/Me.jpg';
+import portrait from '../images/Mrudula.jpeg';
 
 
 const contactItems = [
   {
     icon: <FaEnvelope />,
     label: 'Email',
-    value: 'mrudulanimmala8@gmail.com',
-    link: 'mailto:mrudulanimmala8@gmail.com',
+    value: 'nmrchandra3@gmail.com',
+    link: 'mailto:nmrchandra3@gmail.com',
   },
   {
     icon: <FaPhoneAlt />,
@@ -70,7 +70,7 @@ const Contact = () => {
 
       </div>
       <div className={classes.ctas}>
-        <a className={classes.primaryCta} href="mailto:mrudulanimmala8@gmail.com">
+        <a className={classes.primaryCta} href="mailto:nmrchandra3@gmail.com">
           Start a conversation
         </a>
         <div className={classes.socials}>
