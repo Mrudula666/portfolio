@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaLocationArrow, FaEnvelope } from 'react-icons/fa';
-import { SiAmazonaws, SiDocker, SiSpring, SiKubernetes } from 'react-icons/si';
 import classes from './Hero.module.css';
 
 const Hero = () => {
